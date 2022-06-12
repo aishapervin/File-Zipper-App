@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Zipper</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="heap.js"></script>
+    <script src="huffman.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <div id="navbar" style="font-size: 20px; font-family: sans-serif; background-color: whitesmoke;">
+
+        <img src="zip2.png" width="100" height="75"
+             alt="">
+        <p>File Zipper</p>
+    </div>
+    <div id="form-area">
+    <form method="post" enctype="multipart/form-data" style="display: inline-block;align-items: center;text-align: center;">
+        <input type="file" id="uploadedFile"/>
+    </form>
+     </div>
+    
+        <div class="text_box" >
+            <div id="treearea" style="text-align: center; font-size: medium;">
+              
+            </div>
+        </div>
+        
+       
+            
+       
+   
+    <div id="temptext" style="width: 100%; text-align: center; font-size: x-medium;margin-bottom: 20px;">
+       
+    </div>
+    <div id="beloww">
+        
+        
+        <button  id="encode">&nbsp;&nbsp;Encode&nbsp;&nbsp;</button>
+        
+        <button id="decode">&nbsp;&nbsp;Decode&nbsp;&nbsp;</button>
+    </div>
+
+
+</body>
+
+</html>
